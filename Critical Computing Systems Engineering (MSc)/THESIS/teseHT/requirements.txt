@@ -1,0 +1,9 @@
+torch>=1.12.0
+scikit-learn
+numpy
+opencv-python
+albumentations
+matplotlib
+pandas
+tqdm
+transformers
