@@ -4,6 +4,8 @@
 This repository contains the **source code** developed as part of my **Master’s Thesis in Critical Computing Engineering** at the **Instituto Superior de Engenharia do Porto (ISEP)**.  
 The project focuses on **detecting sail lines** in images of sailboats to determine **aerodynamic parameters** such as **Camber**, **Draft**, and **Twist**, using **Computer Vision** and **Artificial Intelligence** techniques.
 
+My thesis document is included in this directory as a PDF file.
+
 ---
 
 ## 📖 Project Overview
