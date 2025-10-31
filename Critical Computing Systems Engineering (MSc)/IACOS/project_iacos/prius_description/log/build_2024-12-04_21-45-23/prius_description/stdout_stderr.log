@@ -1,0 +1,14 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/assert_file_exists.cmake:20 (message):
+  ament_environment_hooks() the passed hook file
+  '/home/iacos/project_iacos/prius_description/env-hooks/gazebo_envs.sh.in'
+  does not exist
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:35 (assert_file_exists)
+  CMakeLists.txt:6 (ament_environment_hooks)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/iacos/project_iacos/prius_description/build/prius_description/CMakeFiles/CMakeOutput.log".

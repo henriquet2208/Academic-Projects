@@ -1,0 +1,45 @@
+Configuração
+
+Para começar a utilizar o ADE com a câmara USB na máquina virtual, marcar a caixa indicada no canto superior esquerdo DEVICES -> WEBCAMS -> inserir a câmara que tiver.
+
+Em seguida, executar o comando abaixo para iniciar o ADE com o dispositivo de vídeo /dev/video0:
+
+iacos@iacos:~/adehome/AutowareAuto$ ade start -- --device=/dev/video0
+
+Após o ADE iniciar, entrar no ambiente do ADE com o seguinte comando:
+
+ade enter
+
+-------------------------------------------//-------------------------------------------------------
+Build
+
+Abrir três terminais e, em cada um deles, siga os seguintes passos:
+
+1. Ir para o diretório do seu projeto:
+cd ~/project_iacos
+
+2. Executar o comando para compilar o projeto:
+colcon build --symlink-install
+
+3. Em seguida, configurar o ambiente ROS2, para garantir que as dependências sejam corretamente carregadas:
+source /opt/ros/foxy/setup.bash && source install/setup.bash
+
+4. Agora, atualizar os pacotes do sistema e instale as dependências do Gazebo necessárias para o seu projeto:
+sudo apt update
+sudo apt install ros-foxy-gazebo-ros-pkgs
+
+
+--------------------------------------------------//----------------------------------------------------
+Execução
+
+Com o ambiente configurado e o projeto compilado, execute os seguintes comandos em três terminais diferentes:
+
+1. No primeiro terminal, execute o seguinte comando para rodar o nó sign_detector:
+ros2 run project_iacos sign_detector
+
+2. No segundo terminal, execute o comando para rodar o nó vehicle_controller:
+ros2 run project_iacos vehicle_controller
+
+3. No terceiro terminal, execute o comando para lançar o Gazebo e iniciar o simulador:
+ros2 launch project_iacos gazebo.launch.py
+

@@ -1,0 +1,19 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/iacos/project_iacos/prius_description/build/prius_description
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/steering_wheel.obj
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/hybrid_body.obj
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Hybrid_Interior.png
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Wheels3.png
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Hybrid.png
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/wheel.mtl
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/wheel.obj
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/hybrid_body.mtl
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/steering_wheel.mtl
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/urdf
+-- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/urdf/prius.urdf

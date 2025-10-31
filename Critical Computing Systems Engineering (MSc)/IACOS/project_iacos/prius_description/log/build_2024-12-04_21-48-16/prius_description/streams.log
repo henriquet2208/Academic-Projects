@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/iacos/project_iacos/prius_description/build/prius_description': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description
+[0.027s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.218s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.280s] -- Configuring done
+[0.282s] -- Generating done
+[0.283s] -- Build files have been written to: /home/iacos/project_iacos/prius_description/build/prius_description
+[0.285s] Invoked command in '/home/iacos/project_iacos/prius_description/build/prius_description' returned '0': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description
+[0.288s] Invoking command in '/home/iacos/project_iacos/prius_description/build/prius_description': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake --build /home/iacos/project_iacos/prius_description/build/prius_description -- -j4 -l4
+[0.322s] Invoked command in '/home/iacos/project_iacos/prius_description/build/prius_description' returned '0': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake --build /home/iacos/project_iacos/prius_description/build/prius_description -- -j4 -l4
+[0.355s] Invoking command in '/home/iacos/project_iacos/prius_description/build/prius_description': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake --install /home/iacos/project_iacos/prius_description/build/prius_description
+[0.362s] -- Install configuration: "RelWithDebInfo"
+[0.362s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes
+[0.362s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/steering_wheel.obj
+[0.363s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/hybrid_body.obj
+[0.363s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Hybrid_Interior.png
+[0.364s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Wheels3.png
+[0.365s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/Hybrid.png
+[0.365s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/wheel.mtl
+[0.365s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/wheel.obj
+[0.365s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/hybrid_body.mtl
+[0.366s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/meshes/steering_wheel.mtl
+[0.366s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/urdf
+[0.366s] -- Installing: /home/iacos/project_iacos/prius_description/install/prius_description/share/prius_description/urdf/prius.urdf
+[0.367s] CMake Error at cmake_install.cmake:48 (file):
+[0.367s]   file INSTALL cannot find
+[0.367s]   "/home/iacos/project_iacos/prius_description/model.config": No such file or
+[0.367s]   directory.
+[0.367s] 
+[0.367s] 
+[0.370s] Invoked command in '/home/iacos/project_iacos/prius_description/build/prius_description' returned '1': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake --install /home/iacos/project_iacos/prius_description/build/prius_description

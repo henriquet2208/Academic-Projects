@@ -1,0 +1,16 @@
+[0.023s] Invoking command in '/home/iacos/project_iacos/prius_description/build/prius_description': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description
+[0.041s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.227s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.227s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/assert_file_exists.cmake:20 (message):
+[0.227s]   ament_environment_hooks() the passed hook file
+[0.227s]   '/home/iacos/project_iacos/prius_description/env-hooks/gazebo_envs.sh.in'
+[0.227s]   does not exist
+[0.227s] Call Stack (most recent call first):
+[0.227s]   /opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:35 (assert_file_exists)
+[0.227s]   CMakeLists.txt:6 (ament_environment_hooks)
+[0.227s] 
+[0.227s] 
+[0.230s] -- Configuring incomplete, errors occurred!
+[0.230s] See also "/home/iacos/project_iacos/prius_description/build/prius_description/CMakeFiles/CMakeOutput.log".
+[0.232s] Invoked command in '/home/iacos/project_iacos/prius_description/build/prius_description' returned '1': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description

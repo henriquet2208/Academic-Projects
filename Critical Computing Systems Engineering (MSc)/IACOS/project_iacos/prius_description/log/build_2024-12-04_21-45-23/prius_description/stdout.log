@@ -1,0 +1,5 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/iacos/project_iacos/prius_description/build/prius_description/CMakeFiles/CMakeOutput.log".

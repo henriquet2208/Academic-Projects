@@ -1,0 +1,9 @@
+[package]
+name = "groupevaluation2_1200883_1222703"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.7"         # For parallel processing with Rayon
+threadpool = "1.8"    # For creating a thread pool
+csv = "1.1"

@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:48 (file):
+  file INSTALL cannot find
+  "/home/iacos/project_iacos/prius_description/model.config": No such file or
+  directory.
+
+

@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (prius_description) JobQueued: {'identifier': 'prius_description', 'dependencies': OrderedDict()}
+[0.000187] (prius_description) JobStarted: {'identifier': 'prius_description'}
+[0.015741] (prius_description) JobProgress: {'identifier': 'prius_description', 'progress': 'cmake'}
+[0.015890] (prius_description) Command: {'cmd': ['/usr/bin/cmake', '/home/iacos/project_iacos/prius_description', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description'], 'cwd': '/home/iacos/project_iacos/prius_description/build/prius_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ADE_IMAGE_ADE_FOXY_COMMIT_TAG', ''), ('ADE_IMAGE_ADE_FOXY_COMMIT_SHA', '1641aaf554d9db02aa000e2062a92c78af651a31'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'iacos'), ('USER_ID', '1000'), ('HOSTNAME', 'ade'), ('ADE_IMAGE_ADE_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/ade-foxy:master'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/iacos'), ('OLDPWD', '/home/iacos/project_iacos'), ('ADE_HOME_HOSTPATH', '/home/iacos/adehome'), ('ROS_PYTHON_VERSION', '3'), ('GIT_PS1_SHOWUNTRACKEDFILES', '1'), ('GROUP', 'iacos'), ('GIT_PS1_SHOWSTASHSTATE', '1'), ('GIT_PS1_SHOWCOLORHINTS', '1'), ('TIMEZONE', 'Europe/London'), ('COLCON_PREFIX_PATH', '/home/iacos/project_iacos/install'), ('GROUP_ID', '1000'), ('ADE_CLI_VERSION', '4.3.0'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_TAG', ''), ('TERM', 'xterm-256color'), ('ADE_IMAGE_BINARY_FOXY_COMMIT_SHA', 'b024067e695dae10226586e1743f0036a171d1b9'), ('GAZEBO_MODEL_PATH', '/home/iacos/project_iacos/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('GIT_PS1_SHOWUPSTREAM', 'verbose'), ('GIT_PS1_SHOWDIRTYSTATE', '1'), ('ADE_IMAGE_BINARY_FOXY_FQN', 'registry.gitlab.com/autowarefoundation/autoware.auto/autowareauto/amd64/binary-foxy:master'), ('VIDEO_GROUP_ID', '44'), ('COLCON_DEFAULTS_FILE', '/usr/local/etc/colcon-defaults.yaml'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/home/iacos/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy'), ('PROMPT_COMMAND', '__git_ps1 \'${VIRTUAL_ENV:+($(basename "$VIRTUAL_ENV")) }\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\' \'$ \''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_PS1_DESCRIBE_STYLE', 'contains'), ('PWD', '/home/iacos/project_iacos/prius_description/build/prius_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iacos/project_iacos/build/project_iacos:/home/iacos/project_iacos/install/project_iacos/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy')]), 'shell': False}
+[0.065579] (prius_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099429] (-) TimerEvent: {}
+[0.105791] (prius_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.109908] (prius_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.168970] (prius_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.169201] (prius_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200118] (-) TimerEvent: {}
+[0.235591] (prius_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.247777] (prius_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.247985] (prius_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.250404] (prius_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.300776] (-) TimerEvent: {}
+[0.324810] (prius_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.325751] (prius_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.394519] (prius_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400633] (prius_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.400805] (-) TimerEvent: {}
+[0.402089] (prius_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.402741] (prius_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:3 (cmake_policy):\n'}
+[0.402876] (prius_description) StderrLine: {'line': b'  Policy "CMP0148" is not known to this version of CMake.\n'}
+[0.402945] (prius_description) StderrLine: {'line': b'\n'}
+[0.403062] (prius_description) StderrLine: {'line': b'\n'}
+[0.407521] (prius_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.431173] (prius_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.431373] (prius_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.506321] (-) TimerEvent: {}
+[0.606786] (-) TimerEvent: {}
+[0.628237] (prius_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.628401] (prius_description) StderrLine: {'line': b'  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.628444] (prius_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "xacro", but\n'}
+[0.628482] (prius_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.628517] (prius_description) StderrLine: {'line': b'\n'}
+[0.628553] (prius_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "xacro" with any of\n'}
+[0.628877] (prius_description) StderrLine: {'line': b'  the following names:\n'}
+[0.628925] (prius_description) StderrLine: {'line': b'\n'}
+[0.628965] (prius_description) StderrLine: {'line': b'    xacroConfig.cmake\n'}
+[0.629009] (prius_description) StderrLine: {'line': b'    xacro-config.cmake\n'}
+[0.629046] (prius_description) StderrLine: {'line': b'\n'}
+[0.629092] (prius_description) StderrLine: {'line': b'  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set\n'}
+[0.629129] (prius_description) StderrLine: {'line': b'  "xacro_DIR" to a directory containing one of the above files.  If "xacro"\n'}
+[0.629169] (prius_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.629210] (prius_description) StderrLine: {'line': b'  installed.\n'}
+[0.629258] (prius_description) StderrLine: {'line': b'\n'}
+[0.629298] (prius_description) StderrLine: {'line': b'\n'}
+[0.630059] (prius_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.630155] (prius_description) StdoutLine: {'line': b'See also "/home/iacos/project_iacos/prius_description/build/prius_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.635236] (prius_description) CommandEnded: {'returncode': 1}
+[0.654937] (prius_description) JobEnded: {'identifier': 'prius_description', 'rc': 1}
+[0.665647] (-) EventReactorShutdown: {}

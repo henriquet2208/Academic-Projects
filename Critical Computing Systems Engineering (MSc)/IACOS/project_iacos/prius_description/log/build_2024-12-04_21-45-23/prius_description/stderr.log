@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/assert_file_exists.cmake:20 (message):
+  ament_environment_hooks() the passed hook file
+  '/home/iacos/project_iacos/prius_description/env-hooks/gazebo_envs.sh.in'
+  does not exist
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:35 (assert_file_exists)
+  CMakeLists.txt:6 (ament_environment_hooks)
+
+

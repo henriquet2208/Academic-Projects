@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/iacos/project_iacos/prius_description/build/prius_description': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description
+[0.039s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.210s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.210s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.210s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.210s]   CMake did not find one.
+[0.210s] 
+[0.210s]   Could not find a package configuration file provided by "xacro" with any of
+[0.210s]   the following names:
+[0.210s] 
+[0.210s]     xacroConfig.cmake
+[0.210s]     xacro-config.cmake
+[0.211s] 
+[0.211s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.211s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.211s]   provides a separate development package or SDK, be sure it has been
+[0.211s]   installed.
+[0.211s] 
+[0.211s] 
+[0.211s] -- Configuring incomplete, errors occurred!
+[0.211s] See also "/home/iacos/project_iacos/prius_description/build/prius_description/CMakeFiles/CMakeOutput.log".
+[0.214s] Invoked command in '/home/iacos/project_iacos/prius_description/build/prius_description' returned '1': CMAKE_PREFIX_PATH=/home/iacos/project_iacos/install/project_iacos:/opt/ros/foxy /usr/bin/cmake /home/iacos/project_iacos/prius_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/iacos/project_iacos/prius_description/install/prius_description
